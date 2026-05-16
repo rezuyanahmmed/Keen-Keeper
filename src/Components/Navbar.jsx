@@ -12,9 +12,10 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-b sticky top-0 z-50 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <Link to="/" className="text-2xl font-extrabold text-[#14532d] tracking-tight">
-          Keen<span className="text-slate-700">Keeper</span>
+        
+        {/* Logo te click korle home page e ashbe */}
+        <Link to="/" className="text-2xl font-extrabold text-[#244D3F] tracking-tight">
+          Keen<span className="text-black">Keeper</span>
         </Link>
 
         {/* Links */}

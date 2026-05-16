@@ -6,12 +6,12 @@ const Timeline = () => {
   const { timeline } = useContext(InteractionContext);
   const [filter, setFilter] = useState('All');
 
-  // Filtering
+  // Filter er functional
   const filteredTimeline = filter === 'All'
     ? timeline
     : timeline.filter(item => item.type === filter);
 
-  // icon select funtional
+  // icon  er funtional
   const getIcon = (type) => {
     switch (type) {
       case 'Call': return <Phone className="text-emerald-700" size={20} />;
