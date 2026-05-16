@@ -95,7 +95,6 @@ const FriendDetails = () => {
             <p className="text-xs text-slate-400 mt-2">Preferred: {friend.email}</p>
           </div>
 
-          {/* Action Buttons */}
           <div className="bg-white border rounded-2xl p-4 shadow-sm space-y-2">
             <button className="w-full flex items-center justify-center gap-2 border border-slate-200 py-2.5 rounded-xl text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors">
               <AlarmClock size={16} /> Snooze 2 Weeks
@@ -140,7 +139,7 @@ const FriendDetails = () => {
             </button>
           </div>
 
-          {/* Quick Check-In Card */}
+          {/* Quick Check In Card */}
           <div className="bg-white border rounded-2xl p-6 shadow-sm">
             <h4 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4">Quick Check-In</h4>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

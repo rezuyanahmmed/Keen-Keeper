@@ -14,7 +14,7 @@ const Banner = () => {
         <PlusCircle size={20} /> Add a Friend
       </button>
 
-      {/* 4 Summary Cards */}
+      {/* 4 Cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto mt-16">
         <div className="bg-slate-50/50 border border-slate-100 p-6 rounded-2xl text-center">
           <span className="block text-3xl font-black text-green-800">12</span>

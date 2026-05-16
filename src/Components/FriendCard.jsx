@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 const FriendCard = ({ friend }) => {
   const navigate = useNavigate();
 
-  // স্ট্যাটাস ভিত্তিক ব্যাকগ্রাউন্ড রঙ সেট করা
   const getStatusColor = (status) => {
     switch (status) {
       case 'overdue': return 'bg-rose-100 text-rose-600';
@@ -27,7 +26,6 @@ const FriendCard = ({ friend }) => {
         <h3 className="font-bold text-slate-800 text-lg mt-4">{friend.name}</h3>
         <p className="text-xs text-slate-400 font-medium mt-1">{friend.days_since_contact}d ago</p>
         
-        {/* Tags */}
         <div className="flex flex-wrap justify-center gap-1.5 mt-3">
           {friend.tags.map((tag, i) => (
             <span key={i} className="bg-slate-100 text-slate-600 text-[10px] font-bold uppercase px-2 py-0.5 rounded">
@@ -37,7 +35,6 @@ const FriendCard = ({ friend }) => {
         </div>
       </div>
 
-      {/* Status Badge */}
       <div className="mt-5">
         <span className={`inline-block text-xs font-bold uppercase px-3 py-1 rounded-full ${getStatusColor(friend.status)}`}>
           {friend.status}
