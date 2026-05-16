@@ -11,17 +11,17 @@ const Footer = () => {
           <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block">Social Links</span>
           <div className="flex justify-center gap-4">
             {/* Youtube */}
-            <a href="https://youtube.com" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-xs">
+            <a href="" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-xs">
               YT
             </a>
 
             {/* facebook */}
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-sm">
+            <a href="" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-sm">
               f
             </a>
 
             {/* Twitter */}
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-xs">
+            <a href="" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-xs">
               X
             </a>
           </div>
