@@ -6,12 +6,12 @@ const Timeline = () => {
   const { timeline } = useContext(InteractionContext);
   const [filter, setFilter] = useState('All');
 
-  // ফিল্টার লজিক
+  // Filtering
   const filteredTimeline = filter === 'All'
     ? timeline
     : timeline.filter(item => item.type === filter);
 
-  // আইকন সিলেক্ট করার ফাংশন
+  // icon select funtional
   const getIcon = (type) => {
     switch (type) {
       case 'Call': return <Phone className="text-emerald-700" size={20} />;
@@ -23,7 +23,7 @@ const Timeline = () => {
 
   return (
     <div className="max-w-4xl mx-auto p-6 md:p-10">
-      {/* Heading এবং Filter Dropdown */}
+ 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
         <h1 className="text-3xl font-bold text-slate-800">Timeline</h1>
 
@@ -39,7 +39,7 @@ const Timeline = () => {
         </select>
       </div>
 
-      {/* Timeline Entries */}
+      {/* Timeline  */}
       <div className="space-y-4">
         {filteredTimeline.length === 0 ? (
           <div className="text-center py-12 text-slate-400 bg-white border border-dashed rounded-xl">

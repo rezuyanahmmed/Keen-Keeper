@@ -17,15 +17,15 @@ const Banner = () => {
       {/* 4 Summary Cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto mt-16">
         <div className="bg-slate-50/50 border border-slate-100 p-6 rounded-2xl text-center">
-          <span className="block text-3xl font-black text-slate-800">12</span>
+          <span className="block text-3xl font-black text-green-800">12</span>
           <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-1 block">Total Friends</span>
         </div>
         <div className="bg-slate-50/50 border border-slate-100 p-6 rounded-2xl text-center">
-          <span className="block text-3xl font-black text-emerald-700">3</span>
+          <span className="block text-3xl font-black text-green-800">3</span>
           <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-1 block">On Track</span>
         </div>
         <div className="bg-slate-50/50 border border-slate-100 p-6 rounded-2xl text-center">
-          <span className="block text-3xl font-black text-rose-600">6</span>
+          <span className="block text-3xl font-black text-green-800">6</span>
           <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider mt-1 block">Need Attention</span>
         </div>
         <div className="bg-slate-50/50 border border-slate-100 p-6 rounded-2xl text-center">

@@ -68,18 +68,12 @@ const FriendDetails = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen py-8 px-4 md:px-10">
-      {/* Back Button */}
-      <button
-        onClick={() => navigate('/')}
-        className="flex items-center gap-1 text-slate-600 hover:text-emerald-800 font-medium mb-6 transition-colors"
-      >
-        <ChevronLeft size={20} /> Back to Friends
-      </button>
+      
 
-      {/* Main Two-Column Layout (Requirement 5) */}
+      {/* Main Two-Column degain*/}
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-        {/* Left Column — Friend Info Card */}
+       
         <div className="lg:col-span-1 space-y-4">
           <div className="bg-white border rounded-2xl p-6 text-center shadow-sm">
             <img
@@ -89,7 +83,7 @@ const FriendDetails = () => {
             />
             <h2 className="text-xl font-bold text-slate-800 mt-4">{friend.name}</h2>
 
-            {/* Status & Tags */}
+            
             <div className="flex flex-wrap justify-center gap-2 mt-2">
               <span className={`text-xs font-bold uppercase px-2.5 py-1 rounded-full ${getStatusStyle(friend.status)}`}>
                 {friend.status}
@@ -105,7 +99,7 @@ const FriendDetails = () => {
             <p className="text-xs text-slate-400 mt-2">Preferred: {friend.email}</p>
           </div>
 
-          {/* Action Buttons (No functionality required) */}
+          {/* Action Buttons */}
           <div className="bg-white border rounded-2xl p-4 shadow-sm space-y-2">
             <button className="w-full flex items-center justify-center gap-2 border border-slate-200 py-2.5 rounded-xl text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors">
               <AlarmClock size={16} /> Snooze 2 Weeks
@@ -119,10 +113,9 @@ const FriendDetails = () => {
           </div>
         </div>
 
-        {/* Right Column — 3 Sections */}
+        {/* Right Column */}
         <div className="lg:col-span-2 space-y-6">
 
-          {/* ① Stats Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-white border rounded-2xl p-5 text-center shadow-sm">
               <span className="block text-3xl font-bold text-slate-800">{friend.days_since_contact}</span>
@@ -138,7 +131,7 @@ const FriendDetails = () => {
             </div>
           </div>
 
-          {/* ② Relationship Goal Card */}
+          {/* Relationship Goal Card */}
           <div className="bg-white border rounded-2xl p-6 shadow-sm flex justify-between items-center">
             <div>
               <h4 className="text-sm font-semibold text-slate-500 uppercase tracking-wider">Relationship Goal</h4>
@@ -146,12 +139,12 @@ const FriendDetails = () => {
                 Connect every <span className="font-bold text-slate-900">{friend.goal} days</span>
               </p>
             </div>
-            <button className="border border-slate-200 p-2 rounded-lg text-slate-500 hover:bg-slate-50 transition-colors">
-              <Edit2 size={16} />
+            <button className="border border-slate-200 p-2 rounded-lg text-black hover:bg-slate-50 transition-colors">
+              Edit
             </button>
           </div>
 
-          {/* ③ Quick Check-In Card */}
+          {/* Quick Check-In Card */}
           <div className="bg-white border rounded-2xl p-6 shadow-sm">
             <h4 className="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-4">Quick Check-In</h4>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

@@ -15,7 +15,7 @@ const Footer = () => {
               YT
             </a>
 
-            {/* Facebook */}
+            {/* facebook */}
             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 bg-white text-[#1c352d] rounded-full flex items-center justify-center font-bold hover:bg-slate-100 transition-colors text-sm">
               f
             </a>

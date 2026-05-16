@@ -59,7 +59,7 @@
   {
     "id": 5,
     "name": "Sarah Chen",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user5.jpg",
+    "picture": "https://i.ibb.co.com/HfGrwxKL/23a874fdbd89ab75ed27e44d862dbace.webp",
     "email": "sarah@edu.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -73,7 +73,7 @@
   {
     "id": 6,
     "name": "Marcus Johnson",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user6.jpg",
+    "picture": "https://i.ibb.co.com/hxfHr6GS/images-2.jpg",
     "email": "marcus@gym.com",
     "days_since_contact": 10,
     "status": "almost-due",
@@ -87,7 +87,7 @@
   {
     "id": 7,
     "name": "Aisha Patel",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user7.jpg",
+    "picture": "https://i.ibb.co.com/k6g2ztjZ/aisha-patel.jpg",
     "email": "aisha@art.com",
     "days_since_contact": 1,
     "status": "on-track",
@@ -101,7 +101,7 @@
   {
     "id": 8,
     "name": "Tom Baker",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user8.jpg",
+    "picture": "https://i.ibb.co.com/qM5Q2KMP/fd94a66d7fe4f871b8692bbd4cad3ac4.webp",
     "email": "tom@music.com",
     "days_since_contact": 90,
     "status": "overdue",
@@ -115,7 +115,7 @@
   {
     "id": 9,
     "name": "Olivia Martinez",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user9.jpg",
+    "picture": "https://i.ibb.co.com/V617hmn/images-3.jpg",
     "email": "olivia@web.com",
     "days_since_contact": 4,
     "status": "on-track",
@@ -129,7 +129,7 @@
   {
     "id": 10,
     "name": "Daniel Lee",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user10.jpg",
+    "picture": "https://i.ibb.co.com/mFrw2D3y/images-4.jpg",
     "email": "daniel@dev.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -143,7 +143,7 @@
   {
     "id": 11,
     "name": "Sophia Garcia",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user11.jpg",
+    "picture": "https://i.ibb.co.com/7JCcpf0m/images-5.jpg",
     "email": "sophia@life.com",
     "days_since_contact": 8,
     "status": "almost-due",
@@ -157,7 +157,7 @@
   {
     "id": 12,
     "name": "Ryan Wilson",
-    "picture": "https://i.ibb.co.com/v4MvjS5/user12.jpg",
+    "picture": "https://i.ibb.co.com/LX4kwMq7/images-6.jpg",
     "email": "ryan@biz.com",
     "days_since_contact": 20,
     "status": "on-track",
