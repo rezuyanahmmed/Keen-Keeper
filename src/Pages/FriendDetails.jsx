@@ -11,7 +11,6 @@ const FriendDetails = () => {
   const [friend, setFriend] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // JSON ফাইল থেকে নির্দিষ্ট আইডি-র বন্ধুর ডাটা খুঁজে বের করা
   useEffect(() => {
     fetch('/friends.json')
       .then((res) => res.json())
@@ -33,7 +32,6 @@ const FriendDetails = () => {
     );
   }
 
-  // যদি ভুল বা ইনভ্যালিড আইডি দেওয়া হয়
   if (!friend) {
     return (
       <div className="text-center py-20 bg-slate-50">
@@ -45,7 +43,6 @@ const FriendDetails = () => {
     );
   }
 
-  // Quick Check-In হ্যান্ডলার (রিকোয়ারমেন্ট ৬ ও ১০.৩ অনুযায়ী)
   const handleCheckIn = (type) => {
     addLog(type, friend.name);
     toast.success(`${type} entry added for ${friend.name}!`, {
@@ -56,7 +53,6 @@ const FriendDetails = () => {
     });
   };
 
-  // স্ট্যাটাস ডাইনামিক কালার সেটআপ
   const getStatusStyle = (status) => {
     switch (status) {
       case 'overdue': return 'bg-red-100 text-red-600';
@@ -70,7 +66,7 @@ const FriendDetails = () => {
     <div className="bg-slate-50 min-h-screen py-8 px-4 md:px-10">
       
 
-      {/* Main Two-Column degain*/}
+      {/* Main Two Column er design*/}
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
 
        
