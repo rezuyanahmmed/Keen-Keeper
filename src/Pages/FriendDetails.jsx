@@ -64,12 +64,18 @@ const FriendDetails = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen py-8 px-4 md:px-10">
-      
+
 
       {/* Main Two Column er design*/}
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate('/')}
+          className="flex items-center gap-1 text-slate-600 hover:text-emerald-800 font-medium mb-6 transition-colors"
+        >
+          <ChevronLeft size={20} /> Back to Friends
+        </button>
 
-       
         <div className="lg:col-span-1 space-y-4">
           <div className="bg-white border rounded-2xl p-6 text-center shadow-sm">
             <img
@@ -79,7 +85,7 @@ const FriendDetails = () => {
             />
             <h2 className="text-xl font-bold text-slate-800 mt-4">{friend.name}</h2>
 
-            
+
             <div className="flex flex-wrap justify-center gap-2 mt-2">
               <span className={`text-xs font-bold uppercase px-2.5 py-1 rounded-full ${getStatusStyle(friend.status)}`}>
                 {friend.status}
