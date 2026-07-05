@@ -92,7 +92,7 @@ const FriendDetails = () => {
             </div>
 
             <p className="text-sm italic text-slate-500 mt-4 px-2">"{friend.bio}"</p>
-            <p className="text-xs text-slate-400 mt-2">: {friend.email}</p>
+            <p className="text-xs text-slate-400 mt-2">Preferred: {friend.email}</p>
           </div>
 
           <div className="bg-white border rounded-2xl p-4 shadow-sm space-y-2">
