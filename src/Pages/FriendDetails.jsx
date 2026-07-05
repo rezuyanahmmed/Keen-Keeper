@@ -69,13 +69,7 @@ const FriendDetails = () => {
       {/* Main Two Column er design*/}
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Back Button */}
-        <button
-          onClick={() => navigate('/')}
-          className="flex items-center gap-1 text-slate-600 hover:text-emerald-800 font-medium mb-6 transition-colors"
-        >
-          <ChevronLeft size={20} /> Back to Friends
-        </button>
-
+        
         <div className="lg:col-span-1 space-y-4">
           <div className="bg-white border rounded-2xl p-6 text-center shadow-sm">
             <img
